@@ -2,13 +2,13 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-# Copiem fișierele csproj și restaurăm pachetele
-COPY *.csproj ./
-RUN dotnet restore
+# Copiem csproj-ul proiectului server și restaurăm pachetele
+COPY DWServer/DWServer.csproj ./DWServer/
+RUN dotnet restore ./DWServer/DWServer.csproj
 
-# Copiem tot codul și facem build
+# Copiem tot codul sursă și facem build
 COPY . ./
-RUN dotnet publish -c Release -o out
+RUN dotnet publish DWServer/DWServer.csproj -c Release -o out
 
 # Imagine de rulare
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
