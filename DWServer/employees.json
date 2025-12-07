@@ -1,44 +1,74 @@
 [
   {
     "id": 1,
-    "name": "Milana Poting",
-    "position": "Manager",
-    "salary": 12000
+    "name": "Ana Popescu",
+    "position": "Team Lead",
+    "salary": 13000
   },
   {
     "id": 2,
-    "name": "Liliana Petrachi",
-    "position": "Developer",
-    "salary": 9500
+    "name": "Bogdan Ionescu",
+    "position": "Backend Developer",
+    "salary": 9000
   },
   {
     "id": 3,
-    "name": "Rusu Ionela",
-    "position": "Tester",
-    "salary": 8000
+    "name": "Carla Marinescu",
+    "position": "QA Tester",
+    "salary": 7500
   },
   {
     "id": 4,
-    "name": "Covaci Alexandra",
-    "position": "HR Specialist",
-    "salary": 7000
+    "name": "Darius Tudor",
+    "position": "HR Manager",
+    "salary": 8200
   },
   {
     "id": 5,
-    "name": "Ion Ciorap",
+    "name": "Elena Radu",
+    "position": "Frontend Developer",
+    "salary": 9500
+  },
+  {
+    "id": 6,
+    "name": "Florian Munteanu",
     "position": "DevOps Engineer",
-    "salary": 11000
+    "salary": 10500
   },
   {
     "id": 7,
-    "name": "victor",
-    "position": "boss",
-    "salary": 1000000
+    "name": "Gabriel Stan",
+    "position": "Project Manager",
+    "salary": 15000
   },
   {
     "id": 8,
-    "name": "Felix",
-    "position": "gfgf",
-    "salary": 4567
+    "name": "Irina Vasile",
+    "position": "UX Designer",
+    "salary": 8700
+  },
+  {
+    "id": 9,
+    "name": "Lucian Drăgan",
+    "position": "Database Admin",
+    "salary": 9800
+  },
+  {
+    "id": 10,
+    "name": "Mihai Preda",
+    "position": "Cloud Engineer",
+    "salary": 11200
+  },
+  {
+    "id": 11,
+    "name": "Nicoleta Ene",
+    "position": "Marketing Specialist",
+    "salary": 7000
+  },
+  {
+    "id": 12,
+    "name": "Octavian Florescu",
+    "position": "CTO",
+    "salary": 20000
   }
 ]
