@@ -61,4 +61,7 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
 }
 
+// Mesaj simplu la root
+app.MapGet("/", () => "Serverul rulează!");
+
 app.Run();
