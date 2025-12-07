@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWServer", "DWServer\DWServer.csproj", "{C559F9F8-E784-4F4E-B596-2038250760CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyServer", "ProxyServer\ProxyServer.csproj", "{286F5756-AD92-4658-95AC-5F656BB1DA12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{C44938BD-061C-41BD-BAF8-BE838841B932}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C559F9F8-E784-4F4E-B596-2038250760CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C559F9F8-E784-4F4E-B596-2038250760CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C559F9F8-E784-4F4E-B596-2038250760CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C559F9F8-E784-4F4E-B596-2038250760CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286F5756-AD92-4658-95AC-5F656BB1DA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286F5756-AD92-4658-95AC-5F656BB1DA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286F5756-AD92-4658-95AC-5F656BB1DA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286F5756-AD92-4658-95AC-5F656BB1DA12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44938BD-061C-41BD-BAF8-BE838841B932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44938BD-061C-41BD-BAF8-BE838841B932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44938BD-061C-41BD-BAF8-BE838841B932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44938BD-061C-41BD-BAF8-BE838841B932}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B95D8C1-03CB-4814-859E-E4A2BCF7BBD5}
+	EndGlobalSection
+EndGlobal
