@@ -22,7 +22,7 @@ if (!string.IsNullOrEmpty(renderConnection))
     var builderNpgsql = new NpgsqlConnectionStringBuilder
     {
         Host = databaseUri.Host,
-        Port = databaseUri.Port,
+        Port = databaseUri.Port != -1 ? databaseUri.Port : 5432, // fallback port PostgreSQL
         Username = userInfo[0],
         Password = userInfo[1],
         Database = databaseUri.AbsolutePath.TrimStart('/'),
